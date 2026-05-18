@@ -1,0 +1,14 @@
+flowchart LR
+  G[Khách vãng lai]
+  U[Người dùng\n(Người thuê / Chủ tin)]
+  A[Admin]
+  S((ỨNG DỤNG TÌM THUÊ CĂN HỘ THÔNG MINH\nTÍCH HỢP GOOGLE MAPS + MEMBERSHIP\n+ QUẢN TRỊ))
+
+  G -->|1| S
+  S -->|2| G
+
+  U -->|3| S
+  S -->|4| U
+
+  A -->|5| S
+  S -->|6| A
